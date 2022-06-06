@@ -1,0 +1,50 @@
+#navs{
+    background: var(--white);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 13fr;
+        padding: 1rem 0;
+
+        .navz{
+            text-align: right;
+
+            .nav_links{
+                .lin{
+                    font-size: 1.2rem;
+                    padding-left: 2rem;
+                    color: var(--blk);
+                    transition: var(--transition);
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+}
+
+                &:hover{
+                    color: var(--primary);
+                }
+
+                a{
+                    display: inline-block;
+                    padding-left: 2rem;
+                    color: var(--blk);
+                    transition: var(--transition);
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+
+
+                    &:hover{
+                        color: var(--primary);
+                    }
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+#navs {
+  background: var(--white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navs .navbar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 13fr;
+      grid-template-columns: 1fr 13fr;
+  padding: 1rem 0;
+}
+
+#navs .navbar .navz {
+  text-align: right;
+}
+
+#navs .navbar .navz .nav_links .lin {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  color: var(--blk);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+#navs .navbar .navz .nav_links:hover {
+  color: var(--primary);
+}
+
+#navs .navbar .navz .nav_links a {
+  display: inline-block;
+  padding-left: 2rem;
+  color: var(--blk);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+#navs .navbar .navz .nav_links a:hover {
+  color: var(--primary);
+}
+/*# sourceMappingURL=navbar.css.map */

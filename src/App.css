@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+
+.btn{
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.btn-primary{
+  color: var(--white);
+  background: var(--primary);
+  border: 1px solid var(--primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn-primary:hover{
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-pink{
+  color: var(--white);
+  background: var(--ic-hover6);
+  border: 1px solid var(--ic-hover6);
+}
+
+.btn-pink:hover{
+  color: var(--ic-hover6);
+  background: transparent;
+  border: 1px solid var(--ic-hover6);
+}
+
+.odd_grid_2{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 1.5rem;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+
+
+.common_head_small{
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.common_head_big{
+  font-size: 1.5rem;
+}
+
+
+
+.grid4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+
+
+
+@media screen and (max-width:991px){
+  .container{
+    width: var(--container-lg);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:767px){
+  .container{
+    width: var(--container-md);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width:575px){
+  .conatiner{
+    width: var(--container-sm);
+  }
+}
+
+@media screen and (max-width:400px){
+  .container{
+    width: var(--container-xsm);
   }
 }
