@@ -1,0 +1,23 @@
+#feature{
+    background: var(--blk);
+    padding: 4rem 0;
+    color: var(--white);
+
+    .f_grid{
+        display: flex;
+        gap: 1rem;
+
+        &_left{
+            .green_number{
+                font-size: 3rem;
+                color: var(--primary);
+            }
+        }
+
+        &_right{
+            h1{
+                padding: 0.8rem 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.about{
+    .about_content{
+        color: rgb(243, 214, 214);
+        background: purple;
+    }
+
+    .vugis{
+        @extend .about_content;
+        font-size: 2rem;
+    }
+}

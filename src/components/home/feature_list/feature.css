@@ -1,0 +1,22 @@
+#feature {
+  background: var(--blk);
+  padding: 4rem 0;
+  color: var(--white);
+}
+
+#feature .f_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+#feature .f_grid_left .green_number {
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+#feature .f_grid_right h1 {
+  padding: 0.8rem 0;
+}
+/*# sourceMappingURL=feature.css.map */
