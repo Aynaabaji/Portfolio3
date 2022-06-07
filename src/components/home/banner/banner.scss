@@ -1,0 +1,141 @@
+.homepage{
+    padding-top: 5rem;
+
+    .banner_details{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        .banner_dets{
+            h1{
+                padding-bottom: 1rem;
+            }
+
+
+            .banner_icons{
+                display: flex;
+        
+                .ban-icon{
+                    width: 2rem;
+                    aspect-ratio: 1/1;
+                    border: 1px solid black;
+                    margin: 0.2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+        
+        
+                .ic1{
+                    border: 1px solid var(--ic-hover1);
+                    color: var(--ic-hover1);
+                    transition: var(--transition);
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+
+
+                    &:hover{
+                        background: var(--ic-hover1);
+                        color: var(--white);
+                    }
+                }
+                .ic2{
+                    border: 1px solid var(--ic-hover2);
+                    color: var(--ic-hover2);
+                    transition: var(--transition);
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+
+                    &:hover{
+                        background: var(--ic-hover2);
+                        color: var(--white);
+                    }
+}
+                .ic3{
+                    border: 1px solid var(--ic-hover3);
+                    color: var(--ic-hover3);
+                    transition: var(--transition);
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+
+                    &:hover{
+                        background: var(--ic-hover3);
+                        color: var(--white);
+                    }
+}
+                .ic4{
+                    border: 1px solid var(--ic-hover4);
+                    color: var(--ic-hover4);
+                    transition: var(--transition);                ;
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+
+                    &:hover{
+                        background: var(--ic-hover4);
+                        color: var(--white);
+                    }
+}
+                .ic5{
+                    border: 1px solid var(--ic-hover5);
+                    color: var(--ic-hover5);
+
+                    &:hover{
+                        background: var(--ic-hover5);
+                        color: var(--white);
+                    }
+                    transition: var(--transition);                ;
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+}
+                .ic6{
+                    border: 1px solid var(--ic-hover6);
+                    color: var(--ic-hover6);
+
+                    &:hover{
+                        background: var(--ic-hover6);
+                        color: var(--white);
+                    }
+                    transition: var(--transition);                ;
+                    -webkit-transition: var(--transition);
+                    -moz-transition: var(--transition);
+                    -ms-transition: var(--transition);
+                    -o-transition: var(--transition);
+}
+
+                
+            }
+
+            p{
+                padding: 1rem 0;
+                line-height: 2rem;
+                font-size: 1.2rem;
+            }
+
+            .banner_button{
+                .ban_but{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

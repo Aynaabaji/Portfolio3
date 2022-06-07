@@ -46,4 +46,8 @@
 #navs .navbar .navz .nav_links a:hover {
   color: var(--primary);
 }
+
+#navs .navbar .navz .nav_links .icon_bar {
+  display: none;
+}
 /*# sourceMappingURL=navbar.css.map */

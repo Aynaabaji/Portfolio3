@@ -1,0 +1,9 @@
+@media screen and (max-width:991px){
+    .lin{
+        color: red;
+    }
+
+    .icon_bar{
+        display: block;
+    }
+  }

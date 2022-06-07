@@ -22,7 +22,7 @@
                     -moz-transition: var(--transition);
                     -ms-transition: var(--transition);
                     -o-transition: var(--transition);
-}
+                    }
 
                 &:hover{
                     color: var(--primary);
@@ -44,7 +44,17 @@
                     }
 
                 }
+
+                .icon_bar{
+                    display: none;
+                }
             }
         }
     }
 }
+
+
+
+
+
+

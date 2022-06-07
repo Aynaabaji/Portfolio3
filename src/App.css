@@ -13,6 +13,11 @@
   color: var(--white);
   background: var(--primary);
   border: 1px solid var(--primary);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 
 .btn-primary:hover{

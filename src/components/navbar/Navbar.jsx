@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {RiShoppingBagFill} from 'react-icons/ri'
 import {BiCategory} from 'react-icons/bi'
+import {GoThreeBars} from 'react-icons/go'
 
 const Navbar = () => {
   return (
@@ -25,6 +26,7 @@ const Navbar = () => {
                     <a href="http://www.aynaabaji.com"><AiOutlineSearch className='nav_icons'/></a>
                     <a href="http://www.aynaabaji.com"><RiShoppingBagFill className='nav_icons'/></a>
                     <a href="http://www.aynaabaji.com"><BiCategory className='nav_icons'/></a>
+                    <GoThreeBars className='icon_bar'/>
                 </div>
             </div>
         </div>
