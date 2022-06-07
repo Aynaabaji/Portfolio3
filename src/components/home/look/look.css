@@ -1,0 +1,31 @@
+.look {
+  background: var(--blk);
+  color: var(--white);
+  padding: 3rem 0;
+}
+
+.look .lookz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.look .lookz small {
+  color: var(--secondary);
+}
+
+.look .lookz h1 {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=look.css.map */

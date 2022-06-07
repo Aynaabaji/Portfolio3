@@ -1,0 +1,51 @@
+.services {
+  padding: 3rem 0;
+  background: var(--blk2);
+}
+
+.services .service_header {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.services .service_header h5 {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.services .service_header h2 {
+  padding: 1.5rem 0;
+}
+
+.services .service_content .s_cntnt {
+  margin-bottom: 6rem;
+}
+
+.services .service_content .s_cntnt .cntnt_pic {
+  position: relative;
+}
+
+.services .service_content .s_cntnt .cntnt_pic .upper_content {
+  position: absolute;
+  background: var(--white);
+  width: 90%;
+  right: 50%;
+  bottom: -4.4rem;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  -webkit-box-shadow: 0 0 10px var(--blk3);
+          box-shadow: 0 0 10px var(--blk3);
+  padding: 1rem;
+}
+
+.services .service_content .s_cntnt .cntnt_pic .upper_content h3 {
+  padding-bottom: 0.5rem;
+}
+
+.services .service_content .s_cntnt .cntnt_pic .upper_content p {
+  color: var(--blk4);
+}
+/*# sourceMappingURL=services.css.map */

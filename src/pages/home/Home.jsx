@@ -4,6 +4,8 @@ import './home.css'
 import Banner from '../../components/home/banner/Banner'
 import Feature from '../../components/home/feature_list/Feature'
 import About from '../../components/home/about/About'
+import Services from '../../components/home/services/Services'
+import Look from '../../components/home/look/Look'
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Banner/>
       <Feature/>
       <About/>
+      <Services/>
+      <Look/>
     </div>
   )
 }

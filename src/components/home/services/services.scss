@@ -1,0 +1,51 @@
+.services{
+    padding: 3rem 0;
+    background: var(--blk2);
+    .service_header{
+        text-align: center;
+        padding-bottom: 2rem;
+
+        h5{
+            color: var(--primary);
+            text-transform: uppercase;
+        }
+
+        h2{
+            padding: 1.5rem 0;
+        }
+    }
+
+    .service_content{
+        .s_cntnt{
+            margin-bottom: 6rem;
+
+            .cntnt_pic{
+                position: relative;
+
+                .upper_content{
+                    position: absolute;
+                    background: var(--white);
+                    width: 90%;
+                    right: 50%;
+                    bottom: -4.4rem;
+                    transform: translateX(50%);
+                    -webkit-transform: translateX(50%);
+                    -moz-transform: translateX(50%);
+                    -ms-transform: translateX(50%);
+                    -o-transform: translateX(50%);
+
+                    box-shadow: 0 0 10px var(--blk3);
+                    padding: 1rem;
+
+                    h3{
+                        padding-bottom: 0.5rem;
+                    }
+
+                    p{
+                        color: var(--blk4);
+                    }
+}
+            }
+        }
+    }
+}

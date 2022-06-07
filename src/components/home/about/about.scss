@@ -1,11 +1,30 @@
 .about{
+    padding: 3rem 0;
     .about_content{
-        color: rgb(243, 214, 214);
-        background: purple;
-    }
+        .about_left{
+            padding: 4rem 0;
 
-    .vugis{
-        @extend .about_content;
-        font-size: 2rem;
+            h4{
+                color: var(--primary);
+            }
+
+            h1{
+                padding: 1rem 0;
+            }
+
+            p{
+                line-height: 1.5rem;
+                text-align: left;
+            }
+
+            a{
+                display: inline-block;
+                margin-top: 2rem;
+            }
+        }
+        .about_right{
+            padding: 0 3rem;
+            background: var(--blk);
+        }
     }
 }

@@ -3,6 +3,7 @@
 
 :root{
   --primary:rgb(0, 155, 0);
+  --secondary:rgb(0, 255, 0);
   --ic-hover1:blue;
   --ic-hover2:rgb(187, 0, 0);
   --ic-hover3:rgb(83, 212, 255);
@@ -11,6 +12,9 @@
   --ic-hover6:rgb(253, 99, 176);
   --ic-hover7:orange;
   --blk:#000;
+  --blk3:rgba(150, 150, 150, 0.329);
+  --blk4:rgba(128, 128, 128, 0.767);
+  --blk2:rgba(250, 241, 241, 0.836);
   --white:#fff;
 
   --transition:all 600ms ease;

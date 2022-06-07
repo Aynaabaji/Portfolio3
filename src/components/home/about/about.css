@@ -1,9 +1,31 @@
-.about .about_content, .about .vugis {
-  color: #f3d6d6;
-  background: purple;
+.about {
+  padding: 3rem 0;
 }
 
-.about .vugis {
-  font-size: 2rem;
+.about .about_content .about_left {
+  padding: 4rem 0;
+}
+
+.about .about_content .about_left h4 {
+  color: var(--primary);
+}
+
+.about .about_content .about_left h1 {
+  padding: 1rem 0;
+}
+
+.about .about_content .about_left p {
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.about .about_content .about_left a {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.about .about_content .about_right {
+  padding: 0 3rem;
+  background: var(--blk);
 }
 /*# sourceMappingURL=about.css.map */
